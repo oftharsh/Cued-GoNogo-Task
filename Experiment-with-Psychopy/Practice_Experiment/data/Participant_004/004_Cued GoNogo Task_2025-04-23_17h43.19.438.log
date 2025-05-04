@@ -1,0 +1,258 @@
+17.2846 	WARNING 	User requested fullscreen with size [1280  720], but screen is actually [1920, 1080]. Using actual size
+18.3868 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000026A51DD9FF0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000026A51DD9F90>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000026A51E937C0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+18.3869 	EXP 	window1: backgroundImage = ''
+18.3869 	EXP 	window1: backgroundFit = 'none'
+18.4489 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+18.4490 	EXP 	window1: recordFrameIntervals = False
+18.5806 	EXP 	window1: recordFrameIntervals = True
+18.7642 	EXP 	Screen (0) actual frame rate measured at 60.04Hz
+18.7643 	EXP 	window1: recordFrameIntervals = False
+20.5913 	EXP 	Cued GoNogo Task: status = STARTED
+20.6011 	EXP 	Created imageInstruct = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='imageInstruct', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.5, 1. ]), texRes=128.0, units='height', win=Window(...))
+20.6891 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='NanumSquare', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.7090 	EXP 	Created FixationPhase = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='NanumSquare', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='FixationPhase', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+20.7100 	EXP 	Created Blank = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Blank', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+20.7111 	EXP 	Created Cue = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.5, name='Cue', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+20.7119 	EXP 	Created GoNogo_Stim = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.5, name='GoNogo_Stim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+20.7125 	EXP 	Created Feedback_Present = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='NanumSquare', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Feedback_Present', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+20.7264 	EXP 	Created Thankyou = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='NanumSquare', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Thankyou', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0053 	EXP 	Imported instructions/instruction_slides.xlsx as conditions, 3 conditions, 1 params
+0.0055 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'instruct_slide': 'instructions/Slide1.PNG', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.0467 	EXP 	imageInstruct: image = 'instructions/Slide1.PNG'
+0.0467 	EXP 	imageInstruct: autoDraw = True
+28.5633 	DATA 	Keypress: space
+32.3277 	DATA 	Mouse: Left button down, pos=(1699,115)
+32.3290 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'instruct_slide': 'instructions/Slide2.PNG', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+32.3433 	EXP 	imageInstruct: autoDraw = False
+32.3433 	EXP 	imageInstruct: image = 'instructions/Slide2.PNG'
+32.3433 	EXP 	imageInstruct: autoDraw = True
+32.5434 	DATA 	Mouse:  Left button up, pos=(1699,115)
+67.7482 	DATA 	Mouse: Left button down, pos=(1737,97)
+67.7494 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'instruct_slide': 'instructions/Slide3.PNG', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+67.7639 	EXP 	imageInstruct: autoDraw = False
+67.7639 	EXP 	imageInstruct: image = 'instructions/Slide3.PNG'
+67.7639 	EXP 	imageInstruct: autoDraw = True
+67.9808 	DATA 	Mouse:  Left button up, pos=(1737,97)
+72.8444 	DATA 	Mouse: Left button down, pos=(1670,124)
+72.8589 	EXP 	imageInstruct: autoDraw = False
+72.8589 	EXP 	fixation: autoDraw = True
+73.0600 	DATA 	Mouse:  Left button up, pos=(1670,124)
+74.5137 	EXP 	Imported blocks/BlockList.xlsx as conditions, 2 conditions, 1 params
+74.5140 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'Block': 'blocks/CondNoGo.xlsx', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+74.5259 	EXP 	Imported blocks/CondNoGo.xlsx as conditions, 5 conditions, 6 params
+74.5261 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'CueType': 'NoGo', 'StimType': 'NoGo', 'CueTime': 0.1, 'Stim_Height': 0.2, 'Stim_Width': 0.05, 'CRESP': 'None', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+74.5275 	DATA 	Keypress: space
+74.5291 	EXP 	fixation: autoDraw = False
+74.5291 	EXP 	FixationPhase: autoDraw = True
+75.2237 	EXP 	Blank: autoDraw = True
+75.2403 	EXP 	FixationPhase: autoDraw = False
+75.7231 	EXP 	Blank: autoDraw = False
+75.7231 	EXP 	FixationPhase: autoDraw = False
+75.7231 	EXP 	Blank: autoDraw = False
+75.7231 	EXP 	GoNogo_Stim: fillColor = <psychopy.colors.Color: blue, alpha=1.0>
+75.7231 	EXP 	Cue: autoDraw = True
+75.8230 	EXP 	Cue: autoDraw = False
+76.0229 	EXP 	GoNogo_Stim: autoDraw = True
+76.5223 	EXP 	GoNogo_Stim: autoDraw = False
+76.5223 	EXP 	Cue: autoDraw = False
+76.5223 	EXP 	GoNogo_Stim: autoDraw = False
+76.5223 	EXP 	Feedback_Present: foreColor = <psychopy.colors.Color: Maroon, alpha=1.0>
+76.5223 	EXP 	Feedback_Present: height = 0.1
+76.5223 	EXP 	Feedback_Present: height = 0.1
+76.5223 	EXP 	Feedback_Present: height = 0.1
+76.5223 	EXP 	Feedback_Present: text = 'Correct'
+77.0222 	EXP 	Feedback_Present: autoDraw = True
+78.0058 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'CueType': 'NoGo', 'StimType': 'NoGo', 'CueTime': 0.1, 'Stim_Height': 0.2, 'Stim_Width': 0.05, 'CRESP': 'None', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+78.0213 	EXP 	Feedback_Present: autoDraw = False
+78.0213 	EXP 	Feedback_Present: autoDraw = False
+78.0213 	EXP 	FixationPhase: autoDraw = True
+78.7208 	EXP 	FixationPhase: autoDraw = False
+78.7208 	EXP 	Blank: autoDraw = True
+79.2203 	EXP 	Blank: autoDraw = False
+79.2203 	EXP 	FixationPhase: autoDraw = False
+79.2203 	EXP 	Blank: autoDraw = False
+79.2203 	EXP 	GoNogo_Stim: fillColor = <psychopy.colors.Color: blue, alpha=1.0>
+79.2203 	EXP 	Cue: autoDraw = True
+79.3202 	EXP 	Cue: autoDraw = False
+79.5201 	EXP 	GoNogo_Stim: autoDraw = True
+80.0195 	EXP 	GoNogo_Stim: autoDraw = False
+80.0195 	EXP 	Cue: autoDraw = False
+80.0195 	EXP 	GoNogo_Stim: autoDraw = False
+80.0195 	EXP 	Feedback_Present: foreColor = <psychopy.colors.Color: Maroon, alpha=1.0>
+80.0195 	EXP 	Feedback_Present: text = 'Correct'
+80.5191 	EXP 	Feedback_Present: autoDraw = True
+81.5026 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'CueType': 'NoGo', 'StimType': 'NoGo', 'CueTime': 0.2, 'Stim_Height': 0.2, 'Stim_Width': 0.05, 'CRESP': 'None', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+81.5184 	EXP 	Feedback_Present: autoDraw = False
+81.5184 	EXP 	Feedback_Present: autoDraw = False
+81.5184 	EXP 	FixationPhase: autoDraw = True
+82.2180 	EXP 	FixationPhase: autoDraw = False
+82.2180 	EXP 	Blank: autoDraw = True
+82.7174 	EXP 	Blank: autoDraw = False
+82.7174 	EXP 	FixationPhase: autoDraw = False
+82.7174 	EXP 	Blank: autoDraw = False
+82.7174 	EXP 	GoNogo_Stim: fillColor = <psychopy.colors.Color: blue, alpha=1.0>
+82.7174 	EXP 	Cue: autoDraw = True
+82.9174 	EXP 	Cue: autoDraw = False
+83.1171 	EXP 	GoNogo_Stim: autoDraw = True
+83.6167 	EXP 	GoNogo_Stim: autoDraw = False
+83.6167 	EXP 	Cue: autoDraw = False
+83.6167 	EXP 	GoNogo_Stim: autoDraw = False
+83.6167 	EXP 	Feedback_Present: foreColor = <psychopy.colors.Color: Maroon, alpha=1.0>
+83.6167 	EXP 	Feedback_Present: text = 'Correct'
+84.1162 	EXP 	Feedback_Present: autoDraw = True
+85.0997 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'CueType': 'NoGo', 'StimType': 'NoGo', 'CueTime': 0.3, 'Stim_Height': 0.2, 'Stim_Width': 0.05, 'CRESP': 'None', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+85.1155 	EXP 	Feedback_Present: autoDraw = False
+85.1155 	EXP 	Feedback_Present: autoDraw = False
+85.1155 	EXP 	FixationPhase: autoDraw = True
+85.8149 	EXP 	FixationPhase: autoDraw = False
+85.8149 	EXP 	Blank: autoDraw = True
+86.3144 	EXP 	Blank: autoDraw = False
+86.3144 	EXP 	FixationPhase: autoDraw = False
+86.3144 	EXP 	Blank: autoDraw = False
+86.3144 	EXP 	GoNogo_Stim: fillColor = <psychopy.colors.Color: blue, alpha=1.0>
+86.3144 	EXP 	Cue: autoDraw = True
+86.6143 	EXP 	Cue: autoDraw = False
+86.8141 	EXP 	GoNogo_Stim: autoDraw = True
+87.3137 	EXP 	GoNogo_Stim: autoDraw = False
+87.3137 	EXP 	Cue: autoDraw = False
+87.3137 	EXP 	GoNogo_Stim: autoDraw = False
+87.3137 	EXP 	Feedback_Present: foreColor = <psychopy.colors.Color: Maroon, alpha=1.0>
+87.3137 	EXP 	Feedback_Present: text = 'Correct'
+87.8132 	EXP 	Feedback_Present: autoDraw = True
+88.7965 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'CueType': 'Go', 'StimType': 'NoGo', 'CueTime': 0.5, 'Stim_Height': 0.05, 'Stim_Width': 0.2, 'CRESP': 'None', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+88.8123 	EXP 	Feedback_Present: autoDraw = False
+88.8123 	EXP 	Feedback_Present: autoDraw = False
+88.8123 	EXP 	FixationPhase: autoDraw = True
+89.5119 	EXP 	FixationPhase: autoDraw = False
+89.5119 	EXP 	Blank: autoDraw = True
+90.0116 	EXP 	Blank: autoDraw = False
+90.0116 	EXP 	FixationPhase: autoDraw = False
+90.0116 	EXP 	Blank: autoDraw = False
+90.0116 	EXP 	GoNogo_Stim: fillColor = <psychopy.colors.Color: blue, alpha=1.0>
+90.0116 	EXP 	Cue: autoDraw = True
+90.5110 	EXP 	Cue: autoDraw = False
+90.7109 	EXP 	GoNogo_Stim: autoDraw = True
+91.2103 	EXP 	GoNogo_Stim: autoDraw = False
+91.2103 	EXP 	Cue: autoDraw = False
+91.2103 	EXP 	GoNogo_Stim: autoDraw = False
+91.2103 	EXP 	Feedback_Present: foreColor = <psychopy.colors.Color: Maroon, alpha=1.0>
+91.2103 	EXP 	Feedback_Present: text = 'Correct'
+91.7101 	EXP 	Feedback_Present: autoDraw = True
+92.6958 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'Block': 'blocks/CondGo.xlsx', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+92.7144 	EXP 	Imported blocks/CondGo.xlsx as conditions, 5 conditions, 6 params
+92.7146 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'CueType': 'Go', 'StimType': 'Go', 'CueTime': 0.2, 'Stim_Height': 0.05, 'Stim_Width': 0.2, 'CRESP': 'space', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+92.7165 	EXP 	Feedback_Present: autoDraw = False
+92.7165 	EXP 	Feedback_Present: autoDraw = False
+92.7165 	EXP 	FixationPhase: autoDraw = True
+93.4087 	EXP 	Blank: autoDraw = True
+93.4255 	EXP 	FixationPhase: autoDraw = False
+93.9084 	EXP 	Blank: autoDraw = False
+93.9084 	EXP 	FixationPhase: autoDraw = False
+93.9084 	EXP 	Blank: autoDraw = False
+93.9084 	EXP 	GoNogo_Stim: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+93.9084 	EXP 	Cue: autoDraw = True
+94.1081 	EXP 	Cue: autoDraw = False
+94.3078 	EXP 	GoNogo_Stim: autoDraw = True
+94.6694 	DATA 	Keypress: space
+94.6741 	EXP 	Cue: autoDraw = False
+94.6741 	EXP 	GoNogo_Stim: autoDraw = False
+94.6741 	EXP 	Feedback_Present: foreColor = <psychopy.colors.Color: Maroon, alpha=1.0>
+94.6741 	EXP 	Feedback_Present: height = 0.1
+94.6741 	EXP 	Feedback_Present: height = 0.1
+94.6741 	EXP 	Feedback_Present: height = 0.1
+94.6741 	EXP 	Feedback_Present: text = 'Correct\nReaction Rate: 344ms'
+95.1739 	EXP 	Feedback_Present: autoDraw = True
+96.1574 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'CueType': 'Go', 'StimType': 'Go', 'CueTime': 0.3, 'Stim_Height': 0.05, 'Stim_Width': 0.2, 'CRESP': 'space', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+96.1731 	EXP 	Feedback_Present: autoDraw = False
+96.1731 	EXP 	Feedback_Present: autoDraw = False
+96.1731 	EXP 	FixationPhase: autoDraw = True
+96.8726 	EXP 	FixationPhase: autoDraw = False
+96.8726 	EXP 	Blank: autoDraw = True
+97.3721 	EXP 	Blank: autoDraw = False
+97.3721 	EXP 	FixationPhase: autoDraw = False
+97.3721 	EXP 	Blank: autoDraw = False
+97.3721 	EXP 	GoNogo_Stim: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+97.3721 	EXP 	Cue: autoDraw = True
+97.6719 	EXP 	Cue: autoDraw = False
+97.8717 	EXP 	GoNogo_Stim: autoDraw = True
+98.2129 	DATA 	Keypress: space
+98.2212 	EXP 	Cue: autoDraw = False
+98.2212 	EXP 	GoNogo_Stim: autoDraw = False
+98.2212 	EXP 	Feedback_Present: foreColor = <psychopy.colors.Color: Maroon, alpha=1.0>
+98.2212 	EXP 	Feedback_Present: height = 0.1
+98.2212 	EXP 	Feedback_Present: height = 0.1
+98.2212 	EXP 	Feedback_Present: height = 0.1
+98.2212 	EXP 	Feedback_Present: text = 'Correct\nReaction Rate: 327ms'
+98.7211 	EXP 	Feedback_Present: autoDraw = True
+99.7046 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'CueType': 'NoGo', 'StimType': 'Go', 'CueTime': 0.5, 'Stim_Height': 0.2, 'Stim_Width': 0.05, 'CRESP': 'space', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+99.7202 	EXP 	Feedback_Present: autoDraw = False
+99.7202 	EXP 	Feedback_Present: autoDraw = False
+99.7202 	EXP 	FixationPhase: autoDraw = True
+100.4197 	EXP 	FixationPhase: autoDraw = False
+100.4197 	EXP 	Blank: autoDraw = True
+100.9192 	EXP 	Blank: autoDraw = False
+100.9192 	EXP 	FixationPhase: autoDraw = False
+100.9192 	EXP 	Blank: autoDraw = False
+100.9192 	EXP 	GoNogo_Stim: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+100.9192 	EXP 	Cue: autoDraw = True
+101.4188 	EXP 	Cue: autoDraw = False
+101.6188 	EXP 	GoNogo_Stim: autoDraw = True
+101.9589 	DATA 	Keypress: space
+101.9683 	EXP 	Cue: autoDraw = False
+101.9683 	EXP 	GoNogo_Stim: autoDraw = False
+101.9683 	EXP 	Feedback_Present: foreColor = <psychopy.colors.Color: Maroon, alpha=1.0>
+101.9683 	EXP 	Feedback_Present: height = 0.1
+101.9683 	EXP 	Feedback_Present: height = 0.1
+101.9683 	EXP 	Feedback_Present: height = 0.1
+101.9683 	EXP 	Feedback_Present: text = 'Correct\nReaction Rate: 323ms'
+102.4677 	EXP 	Feedback_Present: autoDraw = True
+103.4513 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'CueType': 'Go', 'StimType': 'Go', 'CueTime': 0.1, 'Stim_Height': 0.05, 'Stim_Width': 0.2, 'CRESP': 'space', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+103.4670 	EXP 	Feedback_Present: autoDraw = False
+103.4670 	EXP 	Feedback_Present: autoDraw = False
+103.4670 	EXP 	FixationPhase: autoDraw = True
+104.1665 	EXP 	FixationPhase: autoDraw = False
+104.1665 	EXP 	Blank: autoDraw = True
+104.6661 	EXP 	Blank: autoDraw = False
+104.6661 	EXP 	FixationPhase: autoDraw = False
+104.6661 	EXP 	Blank: autoDraw = False
+104.6661 	EXP 	GoNogo_Stim: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+104.6661 	EXP 	Cue: autoDraw = True
+104.7661 	EXP 	Cue: autoDraw = False
+104.9660 	EXP 	GoNogo_Stim: autoDraw = True
+105.2922 	DATA 	Keypress: space
+105.2986 	EXP 	Cue: autoDraw = False
+105.2986 	EXP 	GoNogo_Stim: autoDraw = False
+105.2986 	EXP 	Feedback_Present: foreColor = <psychopy.colors.Color: Maroon, alpha=1.0>
+105.2986 	EXP 	Feedback_Present: height = 0.1
+105.2986 	EXP 	Feedback_Present: height = 0.1
+105.2986 	EXP 	Feedback_Present: height = 0.1
+105.2986 	EXP 	Feedback_Present: text = 'Correct\nReaction Rate: 310ms'
+105.7986 	EXP 	Feedback_Present: autoDraw = True
+106.7822 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'CueType': 'Go', 'StimType': 'Go', 'CueTime': 0.1, 'Stim_Height': 0.05, 'Stim_Width': 0.2, 'CRESP': 'space', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+106.7977 	EXP 	Feedback_Present: autoDraw = False
+106.7977 	EXP 	Feedback_Present: autoDraw = False
+106.7977 	EXP 	FixationPhase: autoDraw = True
+107.4970 	EXP 	FixationPhase: autoDraw = False
+107.4970 	EXP 	Blank: autoDraw = True
+107.9966 	EXP 	Blank: autoDraw = False
+107.9966 	EXP 	FixationPhase: autoDraw = False
+107.9966 	EXP 	Blank: autoDraw = False
+107.9966 	EXP 	GoNogo_Stim: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+107.9966 	EXP 	Cue: autoDraw = True
+108.0966 	EXP 	Cue: autoDraw = False
+108.2965 	EXP 	GoNogo_Stim: autoDraw = True
+108.6897 	DATA 	Keypress: space
+108.6958 	EXP 	Cue: autoDraw = False
+108.6958 	EXP 	GoNogo_Stim: autoDraw = False
+108.6958 	EXP 	Feedback_Present: foreColor = <psychopy.colors.Color: Maroon, alpha=1.0>
+108.6958 	EXP 	Feedback_Present: height = 0.1
+108.6958 	EXP 	Feedback_Present: height = 0.1
+108.6958 	EXP 	Feedback_Present: height = 0.1
+108.6958 	EXP 	Feedback_Present: text = 'Correct\nReaction Rate: 383ms'
+109.1956 	EXP 	Feedback_Present: autoDraw = True
+110.1946 	EXP 	Feedback_Present: autoDraw = False
+110.1946 	EXP 	Feedback_Present: autoDraw = False
+110.1946 	EXP 	Thankyou: autoDraw = True
+116.9245 	DATA 	Keypress: space
+116.9392 	EXP 	Thankyou: autoDraw = False
+116.9394 	EXP 	Cued GoNogo Task: status = STOPPED
