@@ -4,8 +4,6 @@
 
 This is a practice experiment that investigates attention and inhibition control using a cued Go/NoGo task. This folder contains all the necessary files and resources to replicate look and feel of the Cued Go/NoGo task designed for simultaneous behavioral and EEG data collection using the Muse headset. It is implemented in PsychoPy and synchronized with EEG signals collected from the Muse (MU-03) headset using LSL (Lab Streaming Layer). The task consists of Go (green rectangle) and NoGo (blue rectangle) stimuli, presented either horizontally or vertically. Participants respond to Go stimuli and withhold response for NoGo stimuli.
 
-![Image](https://github.com/user-attachments/assets/8c107d40-9c03-47e6-9377-42ada6ea9af9)
-
 ## Folder & File Structure
 
 ```
