@@ -8,6 +8,8 @@ The experiment includes two within-subject sessions:
 1. **Phone-Free Condition:** Participants do not use their phones during breaks.
 2. **Phone-Use Condition:** Participants are free to use their phones during breaks.
 
+![Image](https://github.com/user-attachments/assets/8c107d40-9c03-47e6-9377-42ada6ea9af9)
+
 ## Folder & File Structure
 
 ```
